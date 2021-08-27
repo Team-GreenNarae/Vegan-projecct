@@ -1,0 +1,268 @@
+body{
+  background-image: url('C:\\Users\\박지원\\Desktop\\데청캠\\기초 프로젝트\\웹 공부\\subpage.jpg');
+  width: 1920px;
+  height: 1024px;
+  background-repeat: no-repeat;
+  background-size: cover;        
+  font-family: SangSangFlowerRoad;
+}
+
+.select-how{
+    font-size: 90px;
+    text-align: center;
+    color: #4D5933;
+    margin-top: 74px;
+}
+
+.line{ /*조리방법 아래 얇은 선*/
+    top: 211px;
+    left: 359px;
+    width: 1196px;
+    height: 0px;
+    border: 1px solid #415937;
+    opacity: 1;
+    background: #415937;       
+    margin: 0px 360px;
+}
+.progress-bar{
+    display: block;
+    position: relative;
+    height: 178px;        
+}
+.progress-line{ /*진행상황바*/       
+    position: absolute;
+    top: 60.5px;
+    left: 491px;        
+    width: 937px;
+    height: 10px;
+    background: #C8CEB2;
+}
+.circle {/*진행상황 동그라미*/
+    position: absolute;
+    top: 48.5px;            
+    width: 33px;
+    height: 34px;
+    border-radius: 50%;
+    background: #C8CEB2;
+}
+.circle:nth-child(2) {/*진행상황 1번 동그라미*/
+    left: 680px;
+}    
+.circle:nth-child(3) {/*진행상황 2번 동그라미*/        
+    
+    left: 926px;
+    
+}
+.circle:nth-child(4) {/*진행상황 1번(큰) 동그라미*/
+    top: 36.5px;
+    left: 1180px;
+    width: 52px;
+    height: 53px;    
+}  
+.circle-text{/*진행상황 동그라미 속 text*/
+    margin-top: 4px;
+    font-size: 30px;
+    color: #4D5933;
+    text-align: center;     
+}
+
+
+.content-img{
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  vertical-align: middle;
+}
+
+
+.content-img2{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  vertical-align: middle;
+}
+
+.content-img4{
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  vertical-align: middle;
+}
+
+div.content-img2{
+  position: absolute;
+  top: 512px;
+  left: 772px;
+  width: 140px;
+  height: 140px;
+  background: transparent;
+}
+
+
+div.content-img3{
+  position: absolute;
+  top: 522px;
+  left: 1005px;
+  width: 153px;
+  height: 119px;
+  background: transparent;
+}
+
+
+div.content-img4{
+  position: absolute;
+  top: 528px;
+  left: 1221px;
+  width: 172px;
+  height: 113px;
+  background: transparent;
+}
+
+div.text-low1{
+  position: absolute;
+  top: 674px;
+  left: 593px;
+  width: 20px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquareRound;
+  letter-spacing: 0px;
+  color: #273421;
+  opacity: 1;
+}
+
+div.text-low2{
+  position: absolute;
+  top: 674px;
+  left: 827px;
+  width: 20px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquareRound;
+  letter-spacing: 0px;
+  color: #273421;
+  opacity: 1;
+}
+
+div.text-low3{
+  position: absolute;
+  top: 676px;
+  left: 1068px;
+  width: 20px;
+  height: 25px;
+  text-align: center;
+  font: normal normal normal 22px/26px NanumSquareRound;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+div.text-low4{
+  position: absolute;
+  top: 676px;
+  left: 1253px;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  word-break : keep-all;
+  font: normal normal normal 22px/26px NanumSquareRound;
+  letter-spacing: 0px;
+  color: #415937;
+  opacity: 1;
+}
+
+div.content-low1{
+  position: absolute;
+  top: 671px;
+  left: 515px;
+  width: 180px;
+  height: 31px;
+  background: #8DA653 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+div.content-low2{
+  position: absolute;
+  top: 671px;
+  left: 749px;
+  width: 180px;
+  height: 31px;
+  background: #B3BF81
+  no-repeat padding-box;
+  opacity: 1;
+}
+
+div.content-low3{
+  position: absolute;
+  top: 671px;
+  left: 989px;
+  width: 179px;
+  height: 31px;
+  background: #D9D3B3 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+div.content-low4{
+  position: absolute;
+  top: 671px;
+  left: 1214px;
+  width: 179px;
+  height: 31px;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+
+
+div.content-box1{
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 499px;
+  left: 515px;
+  width: 180px;
+  height: 176px;
+}
+
+div.content-box2{
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 499px;
+  left: 749px;
+  width: 180px;
+  height: 176px;
+}
+
+div.content-box3{
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 495px;
+  left: 989px;
+  width: 180px;
+  height: 176px;
+}
+
+div.content-box4{
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 495px;
+  left: 1214px;
+  width: 180px;
+  height: 176px;
+}
+
+div.content_group{
+  position: absolute;
+}
+
+div.content.img{
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
